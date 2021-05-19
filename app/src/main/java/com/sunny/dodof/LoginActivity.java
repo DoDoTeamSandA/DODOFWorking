@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
   private   EditText LoginText,Passwaord;
   private   Button loginbtn;
   private Button newbtn;
+  //helllo
   private FirebaseAuth mAuth;
   private ProgressBar loginProgress;
     private BlurImageView blurImageView;
