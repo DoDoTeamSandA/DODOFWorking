@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".LoginActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grocery2"
+        android:alpha="0.6"
+        />
+
+
+
+    <ProgressBar
+
+        android:id="@+id/LoginBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-16dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    android:fontFamily="sans-serif-condensed"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="40dp"
+    android:textColor="#000"
+    android:text="Welcome,"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="85dp"
+
+        android:text="Sign in to continue!"/>
+
+    <EditText
+        android:id="@+id/UserNamefield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginRight="40dp"
+        android:alpha="0.8"
+        android:background="@drawable/edittext_border"
+        android:textColorHint="#000"
+        android:hint="Email Address"
+        android:padding="15dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/PasswordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="40dp"
+        android:alpha="0.8"
+        android:background="@drawable/edittext_border"
+        android:hint="Password "
+        android:textColorHint="#000"
+        android:padding="15dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/LogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/transparent_bg_bordered"
+        android:text="LogIn"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:alpha="0.8"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/regAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+         android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:background="#000"
+        android:text="Create a New Account"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:alpha="0.8"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/forgetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+
+        android:layout_marginTop="30dp"
+        android:text="Forgot Password?"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textSize="25dp"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogIn" />
+
+
+</android.support.constraint.ConstraintLayout>
