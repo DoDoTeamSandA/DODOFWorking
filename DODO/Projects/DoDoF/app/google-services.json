@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666052103821",
+    "project_id": "dodof-59674",
+    "storage_bucket": "dodof-59674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666052103821:android:130a2097195bdc4c605cc4",
+        "android_client_info": {
+          "package_name": "com.sunny.dodof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666052103821-1sablo8jcr7itvo1l79es9tbbo34pj4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7eirgdUoaLclHQRWaz6ogd3leHH7lnLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666052103821-1sablo8jcr7itvo1l79es9tbbo34pj4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
